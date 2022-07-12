@@ -10,10 +10,10 @@ body {
 }
 
 .container {
-    width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 4.5rem;
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4.5rem;
 }
 
 a {
@@ -24,18 +24,33 @@ a {
   }
 }
 
+.btn {
+  width: 120px;
+  height: 40px;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  background-color: $primary-color;
+  border: none;
+  color: $secondary-color;
+  cursor: pointer;
+  &:hover {
+    background-color: rgb(112, 165, 165);
+  }
+}
+
 .header {
+  margin-bottom: 5rem;
   .navigation {
     display: flex;
     justify-content: space-between;
     .logo {
-        display: flex;
-        cursor: pointer;
-        img {
-            &:first-child{
-                margin-right: 1.4rem;
-            }
+      display: flex;
+      cursor: pointer;
+      img {
+        &:first-child {
+          margin-right: 1.4rem;
         }
+      }
     }
   }
 
@@ -44,18 +59,41 @@ a {
       font-size: 1.4rem;
       line-height: 1.6rem;
       margin-right: 3.4rem;
-      &:first-child{
+      &:first-child {
         color: $primary-color;
       }
     }
-    .btn {
-        width: 120px;
-        height: 40px;
-        border-radius: 30px;
-        background-color: $primary-color;
-        border: none;
-        color: $secondary-color;
-        cursor: pointer;
+  }
+}
+
+.intro {
+  .seo-text {
+    h1 {
+      font-size: 6rem;
+      line-height: 7rem;
     }
+    p {
+      font-size: 2rem;
+      line-height: 2.3rem;
+      color: $gray-text-color;
+    }
+    .start-watch {
+      display: flex;
+      align-items: center;
+      .btn {
+        @extend .btn;
+        width: 14rem;
+        font-size: 1.5rem;
+        margin-right: 2.7rem;
+      }
+    }
+    img {
+      cursor: pointer;
+      margin-right: 1.5rem;
+    }
+  }
+  a {
+    font-size: 1.5rem;
+    color: $gray-text-color;
   }
 }
