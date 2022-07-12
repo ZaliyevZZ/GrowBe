@@ -1,0 +1,61 @@
+@import "variables";
+
+html {
+  font-size: 10px;
+  line-height: 10px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: $title-text-color;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.header {
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    .logo {
+        display: flex;
+        cursor: pointer;
+        img {
+            &:first-child{
+                margin-right: 1.4rem;
+            }
+        }
+    }
+  }
+
+  .navigation-info {
+    a {
+      font-size: 1.4rem;
+      line-height: 1.6rem;
+      margin-right: 3.4rem;
+      &:first-child{
+        color: $primary-color;
+      }
+    }
+    .btn {
+        width: 120px;
+        height: 40px;
+        border-radius: 30px;
+        background-color: $primary-color;
+        border: none;
+        color: $secondary-color;
+        cursor: pointer;
+    }
+  }
+}
