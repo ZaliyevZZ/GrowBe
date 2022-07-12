@@ -39,7 +39,7 @@ a {
 }
 
 .header {
-  margin-bottom: 5rem;
+  margin-bottom: 8rem;
   .navigation {
     display: flex;
     justify-content: space-between;
@@ -55,6 +55,7 @@ a {
   }
 
   .navigation-info {
+    margin-right: 10rem;
     a {
       font-size: 1.4rem;
       line-height: 1.6rem;
@@ -67,7 +68,14 @@ a {
 }
 
 .intro {
+  background-image: url(../img/intro-img.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  display: flex;
+  margin-left: 10rem;
   .seo-text {
+    max-width: 60rem;
     h1 {
       font-size: 6rem;
       line-height: 7rem;
