@@ -69,6 +69,7 @@ a:hover {
   background-position: right;
   display: flex;
   margin-left: 10rem;
+  margin-bottom: 10rem;
 }
 .intro .seo-text {
   max-width: 600px;
@@ -81,8 +82,8 @@ a:hover {
 }
 .intro .seo-text #polygon-2 {
   position: absolute;
-  top: 315px;
-  left: 580px;
+  top: 320px;
+  left: 560px;
 }
 .intro .seo-text h1 {
   font-size: 6rem;
@@ -96,6 +97,7 @@ a:hover {
   font-size: 2.2rem;
   line-height: 2.3rem;
   color: #888888;
+  margin-bottom: 4rem;
 }
 .intro .seo-text .start-watch {
   display: flex;
@@ -113,4 +115,13 @@ a:hover {
 .intro a {
   font-size: 1.5rem;
   color: #888888;
+}
+
+.sponsors .sponsors-item {
+  display: flex;
+  justify-content: space-between;
+}
+.sponsors .sponsors-item img {
+  max-width: 140px;
+  max-height: 40px;
 }/*# sourceMappingURL=style.css.map */
