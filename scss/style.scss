@@ -13,7 +13,6 @@ body {
   width: 1140px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 4.5rem;
 }
 
 a {
@@ -40,6 +39,7 @@ a {
 
 .header {
   margin-bottom: 8rem;
+  margin-top: 4.5rem;
   .navigation {
     display: flex;
     justify-content: space-between;
@@ -124,12 +124,36 @@ a {
 }
 
 .sponsors{
+  margin-bottom: 7rem;
   .sponsors-item{
     display: flex;
     justify-content: space-between;
     img {
       max-width: 140px;
       max-height: 40px;
+    }
+  }
+}
+
+.business-solution {
+  background-image: url(../img/element.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  .business-solution-text {
+    min-width: 425px;
+    h1 {
+      font-size: 4.2rem;
+      line-height: 5.3rem;
+      margin-top: -2rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+      margin-bottom: 1.5rem;
+      color: $gray-text-color;
     }
   }
 }
