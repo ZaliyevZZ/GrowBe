@@ -123,9 +123,9 @@ a {
   }
 }
 
-.sponsors{
+.sponsors {
   margin-bottom: 7rem;
-  .sponsors-item{
+  .sponsors-item {
     display: flex;
     justify-content: space-between;
     img {
@@ -136,11 +136,13 @@ a {
 }
 
 .business-solution {
+  background-color: $gray-background;
   background-image: url(../img/element.png);
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
   align-items: center;
+  margin-bottom: 3rem;
   .business-solution-text {
     min-width: 425px;
     h1 {
@@ -155,5 +157,33 @@ a {
       margin-bottom: 1.5rem;
       color: $gray-text-color;
     }
+  }
+}
+
+.advertising {
+  display: flex;
+  justify-content: space-between;
+  .growyourbusiness {
+    padding: 2rem;
+    h1 {
+      font-size: 2.4rem;
+      line-height: 2.8rem;
+    }
+    p {
+      font-size: 1.5rem;
+      line-height: 2.2rem;
+      margin-bottom: 2.5rem;
+    }
+    h4 {
+      font-size: 1.1rem;
+      line-height: 1.6rem;
+    }
+  }
+  .getqualityleads {
+    @extend .growyourbusiness;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+  }
+  .drivemoresales {
+    @extend .growyourbusiness;
   }
 }
