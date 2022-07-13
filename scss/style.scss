@@ -75,13 +75,28 @@ a {
   display: flex;
   margin-left: 10rem;
   .seo-text {
-    max-width: 60rem;
+    max-width: 600px;
+    position: relative;
+    #polygon-1 {
+      position: absolute;
+      top: 100px;
+      left: -85px;
+    }
+    #polygon-2 {
+      position: absolute;
+      top: 315px;
+      left: 580px;
+    }
     h1 {
+      span {
+        border: 1px solid $primary-color;
+        border-radius: 50%;
+      }
       font-size: 6rem;
       line-height: 7rem;
     }
     p {
-      font-size: 2rem;
+      font-size: 2.2rem;
       line-height: 2.3rem;
       color: $gray-text-color;
     }
