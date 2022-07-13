@@ -134,20 +134,22 @@ a:hover {
   background-image: url(../img/element.png);
   background-repeat: no-repeat;
   background-size: contain;
-  display: flex;
-  align-items: center;
   margin-bottom: 3rem;
 }
-.business-solution .business-solution-text {
+.business-solution .business-solution-wrapper {
+  display: flex;
+  align-items: center;
+}
+.business-solution .business-solution-wrapper .business-solution-text {
   min-width: 425px;
 }
-.business-solution .business-solution-text h1 {
+.business-solution .business-solution-wrapper .business-solution-text h1 {
   font-size: 4.2rem;
   line-height: 5.3rem;
   margin-top: -2rem;
   margin-bottom: 1rem;
 }
-.business-solution .business-solution-text p {
+.business-solution .business-solution-wrapper .business-solution-text p {
   font-size: 1.6rem;
   line-height: 2.4rem;
   margin-bottom: 1.5rem;

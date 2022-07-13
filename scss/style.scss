@@ -140,22 +140,24 @@ a {
   background-image: url(../img/element.png);
   background-repeat: no-repeat;
   background-size: contain;
-  display: flex;
-  align-items: center;
   margin-bottom: 3rem;
-  .business-solution-text {
-    min-width: 425px;
-    h1 {
-      font-size: 4.2rem;
-      line-height: 5.3rem;
-      margin-top: -2rem;
-      margin-bottom: 1rem;
-    }
-    p {
-      font-size: 1.6rem;
-      line-height: 2.4rem;
-      margin-bottom: 1.5rem;
-      color: $gray-text-color;
+  .business-solution-wrapper {
+    display: flex;
+    align-items: center;
+    .business-solution-text {
+      min-width: 425px;
+      h1 {
+        font-size: 4.2rem;
+        line-height: 5.3rem;
+        margin-top: -2rem;
+        margin-bottom: 1rem;
+      }
+      p {
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        margin-bottom: 1.5rem;
+        color: $gray-text-color;
+      }
     }
   }
 }
