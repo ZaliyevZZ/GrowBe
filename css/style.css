@@ -184,6 +184,8 @@ a:hover {
   background-color: #FAFAFA;
   box-sizing: border-box;
   text-align: center;
+  padding-top: 8rem;
+  padding-bottom: 10rem;
 }
 .choose-us h1 {
   font-size: 4.5rem;
@@ -196,19 +198,20 @@ a:hover {
   max-width: 750px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 5.4rem;
 }
 .choose-us .choose-us-blog {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 .choose-us .keyword, .choose-us .social, .choose-us .seo {
   background-color: #fff;
   max-width: 350px;
-  max-height: 550px;
-  padding: 2.5rem;
-  border: 1px solid #000;
-  margin: 2rem;
+  padding: 2rem;
+  margin: 1.5rem;
+}
+.choose-us .keyword img, .choose-us .social img, .choose-us .seo img {
+  width: 90%;
 }
 .choose-us .keyword h2, .choose-us .social h2, .choose-us .seo h2 {
   font-size: 2.4rem;
@@ -220,4 +223,20 @@ a:hover {
   line-height: 2.2rem;
   color: #888888;
   margin-bottom: 5.4rem;
+}
+.choose-us .keyword .btn .icon-great, .choose-us .social .btn .icon-great, .choose-us .seo .btn .icon-great {
+  background-image: url(../img/greatsign.svg);
+  position: relative;
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.choose-us .seo h2 {
+  margin-top: 0.6rem;
+}
+.choose-us .social h2 {
+  margin-top: 0.6rem;
 }/*# sourceMappingURL=style.css.map */
