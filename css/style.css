@@ -159,6 +159,7 @@ a:hover {
 .advertising {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 10rem;
 }
 .advertising .growyourbusiness, .advertising .drivemoresales, .advertising .getqualityleads {
   padding: 2rem;
@@ -178,4 +179,45 @@ a:hover {
 }
 .advertising .getqualityleads {
   box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+.choose-us {
+  background-color: #FAFAFA;
+  box-sizing: border-box;
+  text-align: center;
+}
+.choose-us h1 {
+  font-size: 4.5rem;
+  line-height: 5.2rem;
+}
+.choose-us p {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #888888;
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.choose-us .choose-us-blog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.choose-us .keyword, .choose-us .social, .choose-us .seo {
+  background-color: #fff;
+  max-width: 350px;
+  max-height: 550px;
+  padding: 2.5rem;
+  border: 1px solid #000;
+  margin: 2rem;
+}
+.choose-us .keyword h2, .choose-us .social h2, .choose-us .seo h2 {
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  margin-bottom: 2.2rem;
+}
+.choose-us .keyword p, .choose-us .social p, .choose-us .seo p {
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  color: #888888;
+  margin-bottom: 5.4rem;
 }/*# sourceMappingURL=style.css.map */
