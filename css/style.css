@@ -249,6 +249,7 @@ a:hover {
   left: -12rem;
 }
 .seo-why-need .seo-why-need-info {
+  max-width: 560px;
   position: relative;
   left: 80rem;
   top: 8rem;
@@ -291,4 +292,31 @@ a:hover {
 }
 .seo-why-need .seo-why-need-info .email-marketing {
   box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+.statitic {
+  margin-top: 12rem;
+  margin-bottom: 10rem;
+}
+.statitic .statistic-blog {
+  max-width: 70%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.statitic .statistic-blog h1 {
+  font-size: 7rem;
+  line-height: 10rem;
+  color: #666666;
+  margin-bottom: -3rem;
+}
+.statitic .statistic-blog p {
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  color: #666666;
+}
+.statitic .statistic-blog img {
+  position: relative;
+  top: 1.6rem;
 }/*# sourceMappingURL=style.css.map */

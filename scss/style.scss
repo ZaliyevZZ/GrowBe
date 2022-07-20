@@ -267,6 +267,7 @@ a {
   position: relative;
   left: -12rem;
   .seo-why-need-info {
+    max-width: 560px;
     position: relative;
     left: 80rem;
     top: 8rem;
@@ -312,6 +313,34 @@ a {
     }
     .seo-optimization {
       @extend .smm;
+    }
+  }
+}
+
+.statitic {
+  margin-top: 12rem;
+  margin-bottom: 10rem;
+  .statistic-blog {
+    max-width: 70%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    h1 {
+      font-size: 7rem;
+      line-height: 10rem;
+      color: $gray-text-color-2;
+      margin-bottom: -3rem;
+    }
+    p {
+      font-size: 1.8rem;
+      line-height: 2.7rem;
+      color: $gray-text-color-2;
+    }
+    img {
+      position: relative;
+      top: 1.6rem;
     }
   }
 }
