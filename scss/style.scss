@@ -259,3 +259,59 @@ a {
     }
   }
 }
+
+.seo-why-need {
+  background-image: url(../img/seowhyyou.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  left: -12rem;
+  .seo-why-need-info{
+    position: relative;
+    left: 80rem;
+    top: 8rem;
+      .seo-why-need-title {
+        max-width: 560px;
+        position: inherit;
+        right: 5rem;
+        margin-bottom: 8rem;
+        h1 {
+          font-size: 4.5rem;
+          line-height: 5rem;
+          margin-bottom: 0.5rem;
+        }
+        p {
+          font-size: 1.6rem;
+          line-height: 2.4rem;
+          color: $gray-text-color-2;
+        }
+      }
+    .smm {
+      max-width: 560px;
+      min-height: 100px;
+      margin-bottom: 6rem;
+      img {
+        float: left;
+      }
+      h4 {
+        font-size: 2rem;
+        line-height: 3rem;
+        margin-bottom: 1rem;
+        margin-left: 12rem;
+      }
+      p {
+        font-size: 1.5rem;
+        line-height: 2.2rem;
+        color: $gray-text-color-2;
+        margin-left: 12rem;
+      }
+    }
+    .email-marketing {
+      @extend .smm;
+      box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+    }
+    .seo-optimization {
+      @extend .smm;
+    }
+  }
+}

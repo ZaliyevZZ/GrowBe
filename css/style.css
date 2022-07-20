@@ -239,4 +239,56 @@ a:hover {
 }
 .choose-us .social h2 {
   margin-top: 0.6rem;
+}
+
+.seo-why-need {
+  background-image: url(../img/seowhyyou.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  left: -12rem;
+}
+.seo-why-need .seo-why-need-info {
+  position: relative;
+  left: 80rem;
+  top: 8rem;
+}
+.seo-why-need .seo-why-need-info .seo-why-need-title {
+  max-width: 560px;
+  position: inherit;
+  right: 5rem;
+  margin-bottom: 8rem;
+}
+.seo-why-need .seo-why-need-info .seo-why-need-title h1 {
+  font-size: 4.5rem;
+  line-height: 5rem;
+  margin-bottom: 0.5rem;
+}
+.seo-why-need .seo-why-need-info .seo-why-need-title p {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #666666;
+}
+.seo-why-need .seo-why-need-info .smm, .seo-why-need .seo-why-need-info .seo-optimization, .seo-why-need .seo-why-need-info .email-marketing {
+  max-width: 560px;
+  min-height: 100px;
+  margin-bottom: 6rem;
+}
+.seo-why-need .seo-why-need-info .smm img, .seo-why-need .seo-why-need-info .seo-optimization img, .seo-why-need .seo-why-need-info .email-marketing img {
+  float: left;
+}
+.seo-why-need .seo-why-need-info .smm h4, .seo-why-need .seo-why-need-info .seo-optimization h4, .seo-why-need .seo-why-need-info .email-marketing h4 {
+  font-size: 2rem;
+  line-height: 3rem;
+  margin-bottom: 1rem;
+  margin-left: 12rem;
+}
+.seo-why-need .seo-why-need-info .smm p, .seo-why-need .seo-why-need-info .seo-optimization p, .seo-why-need .seo-why-need-info .email-marketing p {
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  color: #666666;
+  margin-left: 12rem;
+}
+.seo-why-need .seo-why-need-info .email-marketing {
+  box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
 }/*# sourceMappingURL=style.css.map */
