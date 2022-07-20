@@ -372,55 +372,123 @@ a:hover {
 }
 
 .our-plans {
+  margin-bottom: 15rem;
+}
+.our-plans h1 {
+  font-size: 4.5rem;
+  line-height: 6.7rem;
+  text-align: center;
+  margin-bottom: -1rem;
+}
+.our-plans p {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #666666;
+  text-align: center;
+  margin-bottom: 6rem;
+}
+.our-plans .our-plans-wrapper {
   display: flex;
 }
-.our-plans .plus, .our-plans .advanced, .our-plans .beginer {
+.our-plans .our-plans-wrapper .plus, .our-plans .our-plans-wrapper .advanced, .our-plans .our-plans-wrapper .beginer {
   max-width: 370px;
   min-height: 420px;
   padding: 5.5rem;
   text-align: center;
   cursor: pointer;
 }
-.our-plans .plus:hover, .our-plans .advanced:hover, .our-plans .beginer:hover {
-  transform: scale(1.2);
+.our-plans .our-plans-wrapper .plus:hover, .our-plans .our-plans-wrapper .advanced:hover, .our-plans .our-plans-wrapper .beginer:hover {
+  transform: scale(1.1);
   transition-duration: 0.5s;
-  box-shadow: 15px 25px 70px -5px rgba(0, 0, 0, 0.07);
+  box-shadow: 15px 25px 70px -5px rgba(0, 0, 0, 0.2);
 }
-.our-plans .plus:hover .btn, .our-plans .advanced:hover .btn, .our-plans .beginer:hover .btn {
+.our-plans .our-plans-wrapper .plus:hover .btn, .our-plans .our-plans-wrapper .advanced:hover .btn, .our-plans .our-plans-wrapper .beginer:hover .btn {
   background-color: #F25822;
 }
-.our-plans .plus:hover h3, .our-plans .advanced:hover h3, .our-plans .beginer:hover h3 {
+.our-plans .our-plans-wrapper .plus:hover h3, .our-plans .our-plans-wrapper .advanced:hover h3, .our-plans .our-plans-wrapper .beginer:hover h3 {
   color: #F25822;
 }
-.our-plans .plus h3, .our-plans .advanced h3, .our-plans .beginer h3 {
+.our-plans .our-plans-wrapper .plus h3, .our-plans .our-plans-wrapper .advanced h3, .our-plans .our-plans-wrapper .beginer h3 {
   font-size: 2.4rem;
   line-height: 3.6rem;
 }
-.our-plans .plus h1, .our-plans .advanced h1, .our-plans .beginer h1 {
+.our-plans .our-plans-wrapper .plus h1, .our-plans .our-plans-wrapper .advanced h1, .our-plans .our-plans-wrapper .beginer h1 {
   font-size: 1.8rem;
   line-height: 2.7rem;
 }
-.our-plans .plus .small-dollar, .our-plans .advanced .small-dollar, .our-plans .beginer .small-dollar {
+.our-plans .our-plans-wrapper .plus .small-dollar, .our-plans .our-plans-wrapper .advanced .small-dollar, .our-plans .our-plans-wrapper .beginer .small-dollar {
   font-size: 1.8rem;
   line-height: 2.7rem;
   position: relative;
   bottom: 3.5rem;
 }
-.our-plans .plus .bigword, .our-plans .advanced .bigword, .our-plans .beginer .bigword {
+.our-plans .our-plans-wrapper .plus .bigword, .our-plans .our-plans-wrapper .advanced .bigword, .our-plans .our-plans-wrapper .beginer .bigword {
   font-size: 7rem;
   line-height: 10rem;
 }
-.our-plans .plus p, .our-plans .advanced p, .our-plans .beginer p {
+.our-plans .our-plans-wrapper .plus p, .our-plans .our-plans-wrapper .advanced p, .our-plans .our-plans-wrapper .beginer p {
   color: #666666;
   font-size: 1.6rem;
   line-height: 4rem;
   margin-bottom: 3.6rem;
 }
-.our-plans .beginer {
+.our-plans .our-plans-wrapper .beginer {
   margin-left: 3rem;
   margin-right: 3rem;
 }
-.our-plans .btn, .our-plans .intro .seo-text .start-watch .btn, .intro .seo-text .start-watch .our-plans .btn {
+.our-plans .our-plans-wrapper .btn, .our-plans .our-plans-wrapper .intro .seo-text .start-watch .btn, .intro .seo-text .start-watch .our-plans .our-plans-wrapper .btn {
   background-color: rgba(242, 88, 34, 0.25);
-  max-width: 200px;
+  width: 200px;
+  font-size: 1.5rem;
+}
+
+.team-members {
+  margin-bottom: 15rem;
+}
+.team-members h1 {
+  font-size: 4.5rem;
+  line-height: 6.5rem;
+  text-align: center;
+  margin-bottom: -0.7rem;
+}
+.team-members p {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #666666;
+  text-align: center;
+  margin-bottom: 8rem;
+}
+.team-members .team-members-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.team-members .team-members-wrapper .natasha, .team-members .team-members-wrapper .nelson, .team-members .team-members-wrapper .haris, .team-members .team-members-wrapper .john {
+  cursor: pointer;
+  width: 20%;
+  min-height: 280px;
+  padding: 2rem;
+  text-align: center;
+}
+.team-members .team-members-wrapper .natasha:hover, .team-members .team-members-wrapper .nelson:hover, .team-members .team-members-wrapper .haris:hover, .team-members .team-members-wrapper .john:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+  box-shadow: 15px 20px 50px rgba(0, 0, 0, 0.1);
+  color: #F25822;
+}
+.team-members .team-members-wrapper .natasha h3, .team-members .team-members-wrapper .nelson h3, .team-members .team-members-wrapper .haris h3, .team-members .team-members-wrapper .john h3 {
+  font-size: 2rem;
+  line-height: 3rem;
+  margin-bottom: -1.5rem;
+}
+.team-members .team-members-wrapper .natasha p, .team-members .team-members-wrapper .nelson p, .team-members .team-members-wrapper .haris p, .team-members .team-members-wrapper .john p {
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+  color: #666666;
+  margin-bottom: 2.5rem;
+}
+.team-members .team-members-wrapper .natasha .social-links img, .team-members .team-members-wrapper .nelson .social-links img, .team-members .team-members-wrapper .haris .social-links img, .team-members .team-members-wrapper .john .social-links img {
+  width: 1.5rem;
+}
+.team-members .team-members-wrapper .natasha .social-links img:not(:last-child), .team-members .team-members-wrapper .nelson .social-links img:not(:last-child), .team-members .team-members-wrapper .haris .social-links img:not(:last-child), .team-members .team-members-wrapper .john .social-links img:not(:last-child) {
+  margin-right: 1.2rem;
 }/*# sourceMappingURL=style.css.map */
