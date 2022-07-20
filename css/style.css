@@ -367,4 +367,60 @@ a:hover {
 .website-speed .website-speed-blog .website-speed-text .btn {
   min-height: 50px;
   margin-left: 2.5rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.our-plans {
+  display: flex;
+}
+.our-plans .plus, .our-plans .advanced, .our-plans .beginer {
+  max-width: 370px;
+  min-height: 420px;
+  padding: 5.5rem;
+  text-align: center;
+  cursor: pointer;
+}
+.our-plans .plus:hover, .our-plans .advanced:hover, .our-plans .beginer:hover {
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+  box-shadow: 15px 25px 70px -5px rgba(0, 0, 0, 0.07);
+}
+.our-plans .plus:hover .btn, .our-plans .advanced:hover .btn, .our-plans .beginer:hover .btn {
+  background-color: #F25822;
+}
+.our-plans .plus:hover h3, .our-plans .advanced:hover h3, .our-plans .beginer:hover h3 {
+  color: #F25822;
+}
+.our-plans .plus h3, .our-plans .advanced h3, .our-plans .beginer h3 {
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+}
+.our-plans .plus h1, .our-plans .advanced h1, .our-plans .beginer h1 {
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+}
+.our-plans .plus .small-dollar, .our-plans .advanced .small-dollar, .our-plans .beginer .small-dollar {
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  position: relative;
+  bottom: 3.5rem;
+}
+.our-plans .plus .bigword, .our-plans .advanced .bigword, .our-plans .beginer .bigword {
+  font-size: 7rem;
+  line-height: 10rem;
+}
+.our-plans .plus p, .our-plans .advanced p, .our-plans .beginer p {
+  color: #666666;
+  font-size: 1.6rem;
+  line-height: 4rem;
+  margin-bottom: 3.6rem;
+}
+.our-plans .beginer {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.our-plans .btn, .our-plans .intro .seo-text .start-watch .btn, .intro .seo-text .start-watch .our-plans .btn {
+  background-color: rgba(242, 88, 34, 0.25);
+  max-width: 200px;
 }/*# sourceMappingURL=style.css.map */
