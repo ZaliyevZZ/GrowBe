@@ -403,7 +403,7 @@ a {
     padding: 5.5rem;
     text-align: center;
     cursor: pointer;
-      &:hover {
+    &:hover {
       transform: scale(1.2);
       transition-duration: 0.5s;
       box-shadow: 15px 25px 70px -5px rgba(0, 0, 0, 0.07);
@@ -450,5 +450,5 @@ a {
   .btn {
     background-color: rgba(242, 88, 34, 0.25);
     max-width: 200px;
-    }
   }
+}
