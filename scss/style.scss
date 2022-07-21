@@ -350,7 +350,7 @@ a {
   .website-speed-blog {
     background-image: url(../img/website-speed.png);
     background-repeat: no-repeat;
-    background-size: 55%;
+    background-size: 50%;
     background-position: right;
     display: flex;
     min-height: 440px;
@@ -370,17 +370,17 @@ a {
         margin-bottom: 5.8rem;
       }
       input:first-child {
-        max-width: 200px;
-        min-height: 40px;
+        max-width: 180px;
+        min-height: 25px;
         background-color: #eeeeee;
         border-radius: 50px 0px 0px 50px;
         border-right: solid 2px #cccccc;
         margin-right: -0.2rem;
       }
       input {
-        max-width: 200px;
-        min-height: 40px;
-        padding: 8px;
+        max-width: 180px;
+        min-height: 25px;
+        padding: 15px;
         background-color: #eeeeee;
         border-radius: 0px 50px 50px 0px;
         border: none;
